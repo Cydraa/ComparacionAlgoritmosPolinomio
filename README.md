@@ -2,10 +2,10 @@
 Este es un programa que compara dos algoritmos para evaluar un polinomio. Los algoritmos a comparar son la evaluación estándar y la evaluación por regla de Horner.
 
 1. Método de evaluación de un polinomio estándard
-   - Sea un polinomio del tipo a[0]x<sup>(grado)</sup> + a[1]x<sup>(grado-1)</sup> + ... + a[n]. Evalúa un polinomio por el método estándar. El algoritmo calcula el valor del polinomio ( f(x) ) realizando una sumatoria del calculo de término, comenzando por el último a[n].
+   - Sea un polinomio del tipo a[0]x<sup>(n)</sup> + a[1]x<sup>(n-1)</sup> + ... + a[n]. Evalúa un polinomio por el método estándar. El algoritmo calcula el valor del polinomio ( f(x) ) realizando una sumatoria del calculo de término, comenzando por el último a[n].
 
 2. Método de evaluación por regla de Horner
-   - Sea un polinomio del tipo a[0]x<sup>(grado)</sup> + a[1]x<sup>(grado-1)</sup> + ... + a[n]. El algoritmo calcula el valor del polinomio ( f(x) ), se le asigna el valor del polinomio inicial con el primer término a[0], el valor actual se multiplica por x y se le suma el coeficiente siguiente más bajo del polinomio hasta llegar al final del polinomio.
+   - Sea un polinomio del tipo a[0]x<sup>(n)</sup> + a[1]x<sup>(n-1)</sup> + ... + a[n]. El algoritmo calcula el valor del polinomio ( f(x) ), se le asigna el valor del polinomio inicial con el primer término a[0], el valor actual se multiplica por x y se le suma el coeficiente siguiente más bajo del polinomio hasta llegar al final del polinomio.
 
 ## Estructura del repositorio
 * Datos: Aquí se encuentran los archivos .csv crudros de los tiempos de ejecucción de cada uno de los algoritmos e imágenes de las gráficas.
