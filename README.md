@@ -59,7 +59,7 @@ cd ComparacionAlgoritmosPolinomio/ComparacionEvaluacionPolinomios/
 Se utilizaron valores de grado del polinomio creciente, desde 10 a 1000, con incrementos de 10. En cada grado, se creó un polinomio de ese grado y se evaluó en un valor de x aleatorio por dos métodos distintos: el método estándar y el método por regla de Horner. Se realizaron 1000 repeticiones por cada evaluación y se obtuvo el promedio de cada uno de ellos.
 
 ## Resultados del análisis y conclusión
-El programa se ejecutó de manera exitosa en Windows 11. Como se puede observar en la gráfica inferior, el algoritmo que utiliza el método estándard para evaluar un polinomio requiere más tiempo de ejecucción al aumentar el grado. Por la naturaleza de los resultados, y, al realizar el análisis del algoritmo, se puede concluir que el algoritmo tiene una complejidad de tiempo O(n<sup>2</sup>),Ω(<sup>2</sup>), 𝚯(<sup>2</sup>).
+El programa se ejecutó de manera exitosa en Windows 11. Como se puede observar en la gráfica inferior, el algoritmo que utiliza el método estándard para evaluar un polinomio requiere más tiempo de ejecucción al aumentar el grado. Por la naturaleza de los resultados, y, al realizar el análisis del algoritmo, se puede concluir que el algoritmo tiene una complejidad de tiempo O(n<sup>2</sup>),Ω(n<sup>2</sup>), 𝚯(n<sup>2</sup>).
 
 Por otro lado, el algoritmo que utiliza el metodo de Horner el tiempo de ejecución al aumentar el grado es casi indistinguible en la gráfica. Esto se debe a que el tiempo de ejecución de este algoritmo se incrementa muy poco al aumentar el grado del polinomio. Al realizar el análisis de este algoritmo, se puede concluir que el algoritmo con la regla de Horner tiene una complejidad de tiempo O(n), Ω(n), 𝚯(n).
 
