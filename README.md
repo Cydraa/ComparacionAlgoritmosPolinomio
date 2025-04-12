@@ -64,4 +64,4 @@ El programa se ejecutó de manera exitosa en Windows 11. Como se puede observar 
 Por otro lado, el algoritmo que utiliza el metodo de Horner el tiempo de ejecución al aumentar el grado es casi indistinguible en la gráfica. Esto se debe a que el tiempo de ejecución de este algoritmo se incrementa muy poco al aumentar el grado del polinomio. Al realizar el análisis de este algoritmo, se puede concluir que el algoritmo con la regla de Horner tiene una complejidad de tiempo O(n), Ω(n), 𝚯(n).
 
 ![Sistema Operativo](https://img.shields.io/badge/Sistema%20Operativo%20-%20Windows%2011-blue) ![CPU](https://img.shields.io/badge/CPU%20-%2011th%20Gen%20Intel(R)%20Core(TM)%20i7%2011700F-purple)
-![Gráfica comparativa de algoritmos de ordenamiento en Windows](ComparacionAlgoritmosOrden/Imagenes/GraficoComparativoAlgoritmos_Windows.png)
+![Gráfica comparativa de algoritmos de evaluacion de polinomio en Windows](ComparacionEvaluacionPolinomios/Datos/grafica_comparacionAlgPol.jpg)
