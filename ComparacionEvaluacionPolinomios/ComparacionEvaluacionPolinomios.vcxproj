@@ -128,7 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AlgoritmosEval.cpp" />
-    <ClCompile Include="ComparacionEvaluacionPolinomios.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="FuncionesAuxiliares.cpp" />
   </ItemGroup>
   <ItemGroup>
