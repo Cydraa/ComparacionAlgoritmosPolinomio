@@ -2,7 +2,7 @@
 
 int EvaluarPolHorner(int a[], int n, int x)
 {
-    double polyval = a[0];
+    int polyval = a[0];
 
     for (int i = 1; i < n + 1; i++)
     {
@@ -14,8 +14,8 @@ int EvaluarPolHorner(int a[], int n, int x)
 
 int EvaluarPol(int a[], int n, int x)
 {
-    double polyval = a[n];
-    double term;
+    int polyval = a[n];
+    int term;
 
     for (int i = 1; i <= n; ++i)
     {
