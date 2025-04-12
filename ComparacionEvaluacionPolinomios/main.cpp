@@ -104,6 +104,8 @@ int main()
 
     DestruirArreglo(datos, MAX_GRADO / INCREMENTO);
 
+    cout << "El archivo generado de los datos se encuentra en: " << ruta << endl;
+
     StopSystem();
     return 0;
 }
