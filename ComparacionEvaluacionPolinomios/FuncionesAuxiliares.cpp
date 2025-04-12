@@ -51,7 +51,7 @@ void CleanBuffer() {
 }
 
 void StopSystem() {
-    printf("Presiona ENTER para continuar...");
+    cout << "Presiona ENTER para continuar...";
     CleanBuffer();
     getchar();
 }
