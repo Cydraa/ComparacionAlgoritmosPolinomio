@@ -84,7 +84,8 @@ int main()
     }
 
     // Impresion de datos
-    ofstream InsercionTiempos("ComparacionAlg_EvaluacionPolinomio.csv");
+    const char* ruta = "../ComparacionEvaluacionPolinomios/Datos/ComparacionAlg_EvaluacionPolinomio.csv";
+    ofstream InsercionTiempos(ruta);
     InsercionTiempos << "GRADO,ESTANDARD,HORNER";
     InsercionTiempos << endl;
 
