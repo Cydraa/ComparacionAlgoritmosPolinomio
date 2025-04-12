@@ -9,18 +9,6 @@ int Aleatorizar(int inicio, int fin)
     return inicio + rand() % (fin - inicio + 1);
 }
 
-void Imprimir(int s[], int n)
-{
-
-    cout << "[ ";
-    for (int i = 0; i < n; ++i)
-    {
-        cout << s[i] << " , ";
-    }
-    cout << "\b\b]" << endl;
-
-}
-
 int** CrearArreglo(int m, int n) // m = renglones, n = columnas
 {
     //Construccion de un arreglo dinamico 2D tipo** CrearArreglo(int m, int n)
