@@ -1,6 +1,9 @@
 # ComparacionAlgoritmosPolinomio
 Este es un programa que compara dos algoritmos para evaluar un polinomio. Los algoritmos a comparar son la evaluación estándar y la evaluación por regla de Horner.
 
+Autor: Ana Paulina Sortillón Sortillón
+para la materia de Matemáticas Discretas.
+
 1. Método de evaluación de un polinomio estándard
    - Sea un polinomio del tipo a[0]x<sup>(n)</sup> + a[1]x<sup>(n-1)</sup> + ... + a[n]. Evalúa un polinomio por el método estándar. El algoritmo calcula el valor del polinomio ( f(x) ) realizando una sumatoria del calculo de término, comenzando por el último a[n].
 
